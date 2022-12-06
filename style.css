@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* H E A D E R */
 
@@ -146,6 +144,31 @@ header div button p{
     display: block;
 }
 
+/* B O T O N E S */
+
+.button, .button2 {
+    color: #F1EEEE;
+    padding: 0.8em 1.7em;
+    background-color: #C54569;
+    border-radius: .3em;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    border: 0.5px solid #F1EEEE;
+    text-transform: uppercase;
+    z-index: 1;
+    
+}
+
+.button:hover, .button2:hover {
+    transition: .3s;
+    box-shadow:  0 0 9px 0.1px #C54569;
+}
+
+.delete{
+    margin-top: 10px;
+}
+
 /* P R O D U C T O S */
 
 .grid{
@@ -224,27 +247,6 @@ header div button p{
 
 .form button img{
     width: 30px;
-}
-
-/* B O T O N E S */
-
-.button {
-    color: #F1EEEE;
-    padding: 0.8em 1.7em;
-    background-color: #C54569;
-    border-radius: .3em;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 15px;
-    border: 0.5px solid #F1EEEE;
-    text-transform: uppercase;
-    z-index: 1;
-    
-}
-
-.button:hover {
-    transition: .3s;
-    box-shadow:  0 0 9px 0.1px #C54569;
 }
 
 /* F O O T E R */

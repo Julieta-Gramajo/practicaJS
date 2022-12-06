@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logorosaredondo.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <title>Tercera pre entrega: Optimización del proyecto</title>
+    <title>Entrega de Proyecto Final</title>
 </head>
-
 <body>
-
     <header>
         <div class="contenedor">
             <img src="./img/logorosa.png" alt="">
@@ -23,25 +20,28 @@
 
             <div class="desplegable">
                 <h3 id="h3Carrito" class="h3Carrito">Carrito</h3>
-                <h4 id="h4Carrito"></h4>
-                <h4 id="h4Carrito2" class="h4Carrito"></h4>
                 <div id="carrito"></div>
                 <div class="total">
                     <p class="total2">total: $ </p>
                     <p id="total"> </p>
                 </div>
-                <button id="vaciar" class="button">Vaciar carrito</button>
-                <button id="finalizar" class="button">Finalizar compra</button>
+                <button id="vaciar" class="button2">Vaciar carrito</button>
+                <button id="finalizar" class="button2">Finalizar compra</button>
             </div>
         </div>
     </header>
 
     <main class="main">
-        <form action="" class="form">
-            <input class="buscador" id="input" type="text" autocomplete="off" placeholder="Busque un producto...">
-            <button><img src="./img/search.png" alt=""></button>
-        </form>
-        <div id="contenedorProductos" class="grid"></div>
+        <div>
+            <section>
+                <form class="form">
+                    <input class="buscador" id="input" type="text" autocomplete="off" placeholder="Busque un producto..">
+                    <button><img src="./img/search.png" alt=""></button>
+                </form>
+            </section>
+            <section id="section">  
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
@@ -77,4 +77,6 @@
     </footer>
 
     <script src="./script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+</html>
